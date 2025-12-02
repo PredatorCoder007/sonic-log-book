@@ -6,6 +6,7 @@ export interface Recording {
   blob: Blob;
   duration: number;
   timestamp: Date;
+  summary?: string;
 }
 
 export function useAudioRecorder() {
